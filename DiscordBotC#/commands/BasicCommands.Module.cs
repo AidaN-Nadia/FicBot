@@ -44,7 +44,7 @@ public class BasicCommandsModule : IModule
 
         //("#text")
         //foreach (var n in L.DescendantNodes())
-        Console.WriteLine("The nodeSearch output is: "+nodeSearch("class=\"rating tags", " "));
+        Console.WriteLine("The nodeSearch output is: "+nodeSearch("//body", " "));
         string nodeSearch(string search, string spacer)
         {
             string toRet = "";
